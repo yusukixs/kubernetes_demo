@@ -7,7 +7,7 @@ app.set('views', __dirname + '/views');
 app.get('/', function (req, res) {
     res.render('index', {
         title: 'Kubernetes Demo',
-        message: 'Hello World!'
+        message: 'Hello GKE World! by Container Registry Builder'
     });
 });
 
